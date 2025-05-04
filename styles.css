@@ -168,6 +168,15 @@ body {
   margin-bottom: 15px;
 }
 
+.skills__list {
+    list-style-type: none;
+}
+
+.skills__list > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
 .skills__text {
   color: var(--secondary-text-color);
   text-align: justify;
@@ -228,27 +237,25 @@ body {
   flex: 1 1 40%;
 }
 
-.additional-info__education {
-  margin-bottom: 20px;
-}
-
 .additional-info__education-header {
   color: var(--secondary-text-color);
   text-align: left;
   margin-bottom: 20px;
 }
 
+.additional-info__education-university {
+  margin-bottom: 10px;
+}
+
 .additional-info__education-university-durability {
   color: var(--durability-text-color);
   text-align: left;
-  margin-bottom: 10px;
   font-size: 15px;
 }
 
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
